@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "basenji-variable", sans-serif;
+}
+
+.container {
+  max-width: 1324px;
+  margin: 0 auto;
+  padding: 0 10px 0 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*****Header*****/
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__section {
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffffff;
+  box-shadow: rgb(228, 228, 228) 0px 2px 18px;
+}
+
+.logo {
+  width: 165px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.navigation {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.nav a {
+  font-family: FiraGo, Roboto;
+  line-height: 1.5;
+  font-size: 14px;
+  opacity: 1;
+  font-weight: 450;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+
+.btn a {
+  font-family: FiraGo, Roboto;
+  line-height: 1.5;
+  font-size: 14px;
+  opacity: 1;
+  font-weight: 450;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  padding: 17px 24px;
+  background: rgb(0, 206, 124);
+  border-radius: 26px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(51, 230, 158);
+}
+
+/*****First section*****/
+
+.first__section {
+  background: linear-gradient(#ffffffff, #f1f1f1);
+}
+
+.first__section-content {
+  margin-top: 140px;
+  background: url(assets/images/first\ section.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  width: 1240px;
+  height: 575px;
+}
+
+.section__video video {
+  width: 551px;
+  height: 310px;
+  border-radius: 50px;
+}
+
+.first__section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section__content {
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+.section__content img {
+  height: 100px;
+  margin-bottom: 8px;
+}
+
+.section__content p {
+  font-family: FiraGo, Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2;
+  color: rgb(255, 255, 255);
+  margin-bottom: 32px;
+}
+
+.btn2 {
+  margin-bottom: 50px;
+  background: rgb(42, 125, 225);
+  width: 148px;
+}
+
+.btn2:hover {
+  background: rgb(27, 81, 147);
+}
+
+/*****First section*****/
+
+.second__section {
+  padding-top: 50px;
+  padding-bottom: 96px;
+  background: #f1f1f1;
+  margin-bottom: 96px;
+}
+
+.second__section-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 434px;
+}
+
+.section__content1 img {
+  margin-bottom: 20px;
+}
+
+.section__content1 h2 {
+  font-family: FiraGo, Roboto;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.section__content1 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  opacity: 0.4;
+}
+
+/*****Third section*****/
+
+.third__section {
+  margin-bottom: 192px;
+}
+
+.third__section h1 {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 100px;
+  letter-spacing: 0.5;
+}
+
+.third__section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.third__section-content img:last-child {
+  width: 700px;
+  height: 450px;
+  border-radius: 100px;
+}
+
+.logo__title {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.logo__title img {
+  width: 70px;
+  height: 70px;
+}
+
+.logo__title-text h2 {
+  font-family: FiraGo, Roboto;
+  font-size: 24px;
+  line-height: 1.334;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.logo__title-text p {
+  font-family: FiraGo, Roboto;
+  font-size: 20px;
+  opacity: 1;
+  color: rgb(0, 0, 0);
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/*****Fourth section*****/
+
+.fourth__section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fourth__section-title i {
+  width: 1em;
+  height: 1em;
+  font-size: 28px;
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 15px;
+  padding: 5px;
+  color: grey;
+  background: black;
+  display: inline;
+  justify-content: center;
+}
+
+.fourth__section-title i:hover {
+  opacity: 0.8;
+  color: rgb(200, 16, 46);
+  background: rgb(0, 0, 0);
+}
+
+.buttons {
+  margin-right: -30px;
+}
+
+.fourth__section-title h1 {
+  font-family: FiraGo, Roboto;
+  font-size: 38px !important;
+  opacity: 1;
+  line-height: 32px;
+  font-weight: 900;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: -20px;
+}
+
+.fourth__section-card {
+  cursor: pointer;
+  width: 426px;
+  border: 1px solid rgba(128, 128, 128, 0.404);
+  border-top: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin-bottom: 100px;
+}
+
+.fourth__section-card:hover {
+  box-shadow: 5px 0px 15px rgba(128, 128, 128, 0.249);
+}
+
+.fourth__section-card h3 {
+  min-height: 52px;
+  line-height: 1.5;
+  font-size: 15px;
+  opacity: 1;
+  color: rgb(0, 0, 0);
+  white-space: normal;
+  font-family: FiraGo, Roboto;
+  font-weight: 700;
+  margin-left: 16px;
+}
+
+.fourth__section-card p {
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  opacity: 1;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: FiraGo, roboto;
+  color: rgb(0, 0, 0);
+  width: 380px;
+  height: 150px;
+  border-bottom: 2px solid grey;
+  margin-left: 16px;
+  margin-bottom: 20px;
+}
+
+.fourth__section-card img {
+  width: 426px;
+  border-top-right-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.price {
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  margin-bottom: 20px;
+}
+
+.price h5 {
+  font-family: FiraGo, Roboto;
+  line-height: 1.5;
+  font-size: 18px;
+  opacity: 1;
+  font-weight: 500;
+  color: rgb(42, 125, 225);
+}
+
+.price h4 {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.fourth__section-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/*****Fifth section*****/
+
+.fifth__section {
+  background: black;
+  padding: 100px 0;
+}
+
+.fifth__section-title h2 {
+  color: white;
+  font-family: FiraGo, Roboto;
+  font-size: 38px !important;
+  opacity: 1;
+  line-height: 32px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin-left: -60px;
+  text-transform: capitalize;
+}
+
+.fifth__section-title i {
+  background: rgba(128, 128, 128, 0.29);
+}
+
+.fifth__section-title i:hover {
+  background: rgba(128, 128, 128, 0.29);
+}
